@@ -75,7 +75,7 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{https://preethamkamidi.com}{\Large Preetham Kamidi}} & Email : \href{mailto:kamidipreetham@gmail.com}{kamidipreetham@gmail.com}\\
+  \textbf{\href{https://preethamkamidi.com}{\Large Preetham Kamidi}} & Email: \href{mailto:code@preetham.me}{code@preetham.me}\\
   \href{https://preethamkamidi.com}{https://preethamkamidi.com} & Mobile : +918011035957 \\
 \end{tabular*}
 
@@ -84,12 +84,12 @@
 \section{Programming Skills}
  \resumeSubHeadingListStart
     \item{
-     \textbf{Languages}{: Python, JavaScript, C++, C\#, SQL}
+     \textbf{Languages}{: Go, C\#, Python, JavaScript, C++, SQL}
      \hfill
-     \textbf{Databases}{: MySQL, Redis, MongoDB}
+     \textbf{Databases}{: MongoDB, Neo4j, MySQL, Redis}
     }
     \item{
-     \textbf{Technologies}{: Git, Docker, Kubernetes, AWS, React, Vue, Kafka}
+     \textbf{Tools}{: Kafka, Git, Docker, Kubernetes, Jenkins, Portainer}
      \hfill
      \textbf{Operating Systems}{: Linux, Windows}
     }
@@ -101,16 +101,27 @@
 \section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
+      {BookMyShow}{Bengaluru}
+      {Software Development Engineer}{August 2019 - Present}
+      \resumeItemListStart
+      \resumeItem{Scanning Application}
+        {Application developed to scan and verify user tickets at events. Designed and developed ticket verification system which takes qrcode as input and verifies if the user's ticket is valid/invalid based on transaction data.}
+      \resumeItem{Barcode Generator}
+        {Designed and developed a barcode generator which automatically generates barcodes for an event hosted on the platform based on business constraints.}
+      \resumeItem{Content Management System}
+        {Application developed for generating content as well as business constraints for a live event. Integrated messaging queue into the system to propagate data to other dependent systems, implemented archival mechanism to safely archive data without affecting any business constraints.}
+      \resumeItemListEnd
+    \resumeSubheading
       {Abzooba India}{Pune}
-      {Software Engineer}{July 2017 - Present}
+      {Software Engineer}{July 2017 - July 2019}
       \resumeItemListStart
         \resumeItem{News Recommender}
-          {A news feed application for a specific client required domain. A continuous pipeline takes care of data ingestion into a graph database, creates necessary relationships after which a recommender model generates recommendations based on user preferences, click data as well as search history stored in graph database. Responsible for designing the data model for the graph database as well as developing the ingestion pipeline. Used \textbf{Python (Flask + Gunicorn), Kafka, Neo4j, NGINX, Docker, Openshift}.}
+          {A news feed application for a specific client required domain. A continuous pipeline takes care of data ingestion into a graph database, creates necessary relationships after which a recommender model generates recommendations based on user preferences, click data as well as search history stored in graph database. Responsible for designing the data model for the graph database as well as developing the ingestion pipeline. \\Tech Stack: \textbf{Python (Flask + Gunicorn), Kafka, Neo4j, NGINX, Docker, Openshift}.}
         \resumeItem{Machine Learning Model Management System}
-          {Designed an end to end ML model management solution for a client. Data as well as models are versioned and stored at a common location, a framework is provided to help train and infer ML models at scale as well as also providing a platform for testing ML models. Responsible for development of data versioning, validation as well as serving ML models. Used \textbf{Python (Tensorflow + Tensorflow Serving), Docker, Kubernetes}.}
+          {Designed an end to end ML model management solution for a client. Data as well as models are versioned and stored at a common location, a framework is provided to help train and infer ML models at scale as well as also providing a platform for testing ML models. Responsible for development of data versioning, validation as well as serving ML models. \\Tech Stack: \textbf{Python (Tensorflow + Tensorflow Serving), Docker, Kubernetes}.}
          \resumeItem{Plug-n-Play platform}
           {A platform for pre-sales executives to showcase the company's NLP/Computer Vision capabilities. An end-user can upload customer's dataset of a use-case after which datasets can be visualised, verified to be fit/unfit for the use-case. 
-          Training procedure can be started after data verification, generating Inference APIs available for showcase; can be switched on/off on-the-fly to save processing costs. Responsible for designing architecture, developing web interface as well as API generator. Used \textbf{ Python(Flask, Gunicorn, Celery, Redis), NGINX, Docker, Node.js, Vue.js, MySQL, AWS S3}.}
+          Training procedure can be started after data verification, generating Inference APIs available for showcase; can be switched on/off on-the-fly to save processing costs. Responsible for designing architecture, developing web interface as well as API generator. \\Tech Stack:\textbf{ Python(Flask, Gunicorn, Celery, Redis), NGINX, Docker, Node.js, Vue.js, MySQL, AWS S3}.}
          \resumeItem{Booking Bot}
           {A web based chatbot which helps users to track the status of their ticket booking. \\ A \textbf{Node.js + Redis} backend provide for session management with REST API calls to dependent micro-services such as NLP Engine and booking status provider. \textbf{React.js} was used to provide the chat interface for user authentication as well as interaction.}
       \resumeItemListEnd
@@ -120,7 +131,7 @@
       {Student Researcher}{July 2016 - May 2017}
       \resumeItemListStart
         \resumeItem{Student Researcher}
-          {Research on immersive ways to help assist training process of rural health workers of Assam. Developed \textbf{Pragati}, a low cost mobile solution which uses \textbf{VR} as the medium with complete graphical approach and gamification to impart knowledge to the workers. Used \textbf{Unity, GoogleVR SDK, C\#, Adobe Photoshop, Adobe Premiere Pro}.}
+          {Research on immersive ways to help assist training process of rural health workers of Assam. Developed \textbf{Pragati}, a low cost mobile solution which uses \textbf{VR} as the medium with complete graphical approach and gamification to impart knowledge to the workers. \\Tech Stack: \textbf{Unity, GoogleVR SDK, C\#, Adobe Photoshop, Adobe Premiere Pro}.}
       \resumeItemListEnd
      
      \resumeSubheading
@@ -128,19 +139,19 @@
       {Student Developer}{March 2016 - August 2016}
       \resumeItemListStart
        \resumeItem{Student Developer}
-         {Implemented live auto-complete support for Soletta Dev-App. Soletta Dev-App uses Ace editor which already has auto-complete available as an external plugin for certain languages only. The challenge was to implement the same for various nodetypes available in Soletta. Syntax auto-complete tips based on FBP were also be implemented which enabled both new and old Soletta users a better programming environment. Used \textbf{Node.js, Angular.js, JQuery, Socket.IO}}
+         {Implemented live auto-complete support for Soletta Dev-App. Soletta Dev-App uses Ace editor which already has auto-complete available as an external plugin for certain languages only. The challenge was to implement the same for various nodetypes available in Soletta. Syntax auto-complete tips based on FBP were also be implemented which enabled both new and old Soletta users a better programming environment. \\Tech Stack: \textbf{Node.js, Angular.js, JQuery, Socket.IO}}
         \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
   
-%-----------PROJECTS-----------------
-\section{Projects}
+%-----------PERSONAL PROJECTS-----------------
+\section{Personal Projects}
   \resumeSubHeadingListStart
     \resumeSubItem{Verify Tweet}
       {A cli tool written in Python to verify authenticity of a tweet produced from a meme template.}
-    \resumeSubItem{Network Test}
-      {A network testing tool written in Go to test bandwidth, latency between point A and point B.}
+    \resumeSubItem{Greenhub}
+      {A simple tool written in Go to keep my Github contributor graph green.}
   \resumeSubHeadingListEnd
   
 %-----------EDUCATION-----------------
