@@ -7,5 +7,5 @@ Archieve/
 *.log
 *.out
 *.synctex.gz
-
+*_temp.tex
 .DS_Store
