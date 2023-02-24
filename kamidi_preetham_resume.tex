@@ -76,10 +76,10 @@
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{https://code.preetham.me}{\Large Preetham Kamidi}} & Email: \href{mailto:kamidipreetham@gmail.com}{kamidipreetham@gmail.com}\\
-  \href{https://code.preetham.me}{https://code.preetham.me} & Mobile : +918011035957 \\
+  \href{https://github.com/preetham}{github.com/preetham} & Mobile : +918011035957 \\
+  \href{https://linkedin.com/in/preethamkamidi}{linkedin.com/preethamkamidi}
 \end{tabular*}
 
-%
 %--------PROGRAMMING SKILLS------------
 \section{Programming Skills}
  \resumeSubHeadingListStart
@@ -89,7 +89,7 @@
      \textbf{Databases}{: MongoDB, MySQL, MSSQL, Neo4j, Redis}
     }
     \item{
-     \textbf{Tools}{: Kafka, Git, Docker, Kubernetes, Jenkins, Portainer}
+     \textbf{Tools}{: Kafka, Git, Docker, Kubernetes, Jenkins}
      \hfill
      \textbf{Operating Systems}{: Linux, Windows}
     }
@@ -106,24 +106,22 @@
     \resumeItemListStart
     \resumeItem{Noon Plus}
       {Designed a subscription model for Noon's offerings including architecture, developed an entirely new microservice in Java which deals with subscription management. \\Tech Stack:\textbf{ Java, MySQL, Kafka, Redis }}
-    \resumeItem{Payment Aggregator Integration}
-      {Integrated a new payment aggregator into Noon's supported payment methods. Lead the project right from problem identification, solutioning, technical design to implementation. \\Tech Stack: \textbf{ NodeJS, MySQL }}
+    \resumeItem{Payment Gateway Integration}
+      {Integrated a new payment gateway into Noon's supported payment methods. Lead the project right from problem identification, solutioning, technical design to implementation. \\Tech Stack: \textbf{ Node.js, MySQL }}
     \resumeItemListEnd
     \resumeSubheading
       {Safekids}{Remote}
       {Software Development Engineer}{Febrary 2021 - June 2021}
       \resumeItemListStart
       \resumeItem{Parental Control Application}
-        {Developed backend and frontend services to support desktop parental control application; handled user management, subscriptions, payments and reporting. \\Tech Stack:\textbf{ Nodejs, AWS, SQS, S3, MongoDB, Stripe, Reactjs }}
+        {Developed backend and frontend services to support desktop parental control application; handled user management, subscriptions, payments and reporting. \\Tech Stack:\textbf{ Node.js, AWS, SQS, S3, MongoDB, Stripe, Reactjs }}
       \resumeItemListEnd
     \resumeSubheading
       {BookMyShow}{Bengaluru}
       {Software Development Engineer}{August 2019 - February 2021}
       \resumeItemListStart
-      \resumeItem{Scanning Application}
-        {Application developed to scan and verify user tickets at events. Designed and developed ticket verification system which takes qrcode as input and verifies if the user's ticket is valid/invalid based on transaction data. \\Tech Stack:\textbf{ Go, MongoDB }}
-      \resumeItem{Barcode Generator}
-        {Designed and developed a barcode generator which automatically generates barcodes for an event hosted on the platform based on business constraints. \\Tech Stack:\textbf{ Go, MongoDB, Kafka }}
+      \resumeItem{Barcode Management System}
+        {Designed and developed a barcode system which automatically generates barcodes, verifies entry for an event hosted on the platform based on business constraints. \\Tech Stack:\textbf{ Go, MongoDB, Kafka }}
       \resumeItem{Content Management System}
         {Application developed for generating content as well as business constraints for a live event. Integrated messaging queue into the system to propagate data to other dependent systems, implemented archival mechanism to safely archive data without affecting any business constraints. \\Tech Stack:\textbf{ Go, Kafka, MongoDB, Redis }}
       \resumeItemListEnd
@@ -132,27 +130,15 @@
       {Software Engineer}{July 2017 - July 2019}
       \resumeItemListStart
         \resumeItem{News Recommender}
-          {A news feed application for a specific client required domain. A continuous pipeline takes care of data ingestion into a graph database, creates necessary relationships after which a recommender model generates recommendations based on user preferences, click data as well as search history stored in graph database. Responsible for designing the data model for the graph database as well as developing the ingestion pipeline. \\Tech Stack: \textbf{Python (Flask + Gunicorn), Kafka, Neo4j, NGINX, Docker, Openshift}.}
-        \resumeItem{Machine Learning Model Management System}
-          {Designed an end to end ML model management solution for a client. Data as well as models are versioned and stored at a common location, a framework is provided to help train and infer ML models at scale as well as also providing a platform for testing ML models. Responsible for development of data versioning, validation as well as serving ML models. \\Tech Stack: \textbf{Python (Tensorflow + Tensorflow Serving), Docker, Kubernetes}.}
-         \resumeItem{Booking Bot}
-          {A web based chatbot which helps users to track the status of their ticket booking. \\ A \textbf{Node.js + Redis} backend provide for session management with REST API calls to dependent micro-services such as NLP Engine and booking status provider. \textbf{React.js} was used to provide the chat interface for user authentication as well as interaction.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {\href{http://www.embeddedinteractions.com/project39.html}{Embedded Interactions Lab}}{Guwahati, Assam}
-      {Student Researcher}{July 2016 - May 2017}
-      \resumeItemListStart
-        \resumeItem{Student Researcher}
-          {Research on immersive ways to help assist training process of rural health workers of Assam. Developed \textbf{Pragati}, a low cost mobile solution which uses \textbf{VR} as the medium with complete graphical approach and gamification to impart knowledge to the workers. \\Tech Stack: \textbf{Unity, GoogleVR SDK, C\#, Adobe Photoshop, Adobe Premiere Pro}.}
+          {A news feed application for a specific client required domain. A continuous pipeline takes care of data ingestion into a graph database, creates necessary relationships after which a recommender model generates recommendations based on user preferences, click data as well as search history stored in graph database. Responsible for designing the data model for the graph database as well as developing the ingestion pipeline. \\Tech Stack: \textbf{Python (Flask + Gunicorn), Kafka, Neo4j, Nginx, Docker, Openshift}.}
       \resumeItemListEnd
      
      \resumeSubheading
       {\href{https://summerofcode.withgoogle.com/archive/2016/projects/4536824152195072/}{Google Summer of Code}}{Remote}
       {Student Developer}{March 2016 - August 2016}
       \resumeItemListStart
-       \resumeItem{Student Developer}
-         {Implemented live auto-complete support for Soletta Dev-App. Soletta Dev-App uses Ace editor which already has auto-complete available as an external plugin for certain languages only. The challenge was to implement the same for various nodetypes available in Soletta. Syntax auto-complete tips based on FBP were also be implemented which enabled both new and old Soletta users a better programming environment. \\Tech Stack: \textbf{Node.js, Angular.js, JQuery, Socket.IO}}
+       \resumeItem{Soletta Dev-App}
+         {Implemented live auto-complete support for Soletta Dev-App. Soletta Dev-App uses Ace editor which already has auto-complete available as an external plugin for certain languages only. The challenge was to implement the same for various nodetypes available in Soletta. Syntax auto-complete tips based on FBP were also be implemented which enabled both new and old Soletta users a better programming environment. \\Tech Stack: \textbf{Node.js, Angular.js, JQuery, Socket.io}}
         \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -162,7 +148,7 @@
 \section{Personal Projects}
   \resumeSubHeadingListStart
     \resumeSubItem{\href{https://github.com/notAI-tech/verifytweet}{Verify Tweet}}
-      {A cli tool written in Python to verify authenticity of a tweet produced from a meme template.}
+      {A cli tool written in Python to verify authenticity of a tweet by using OCR and Twitter APIs.}
     \resumeSubItem{\href{https://github.com/preetham/greenhub}{Greenhub}}
       {A simple tool written in Go to keep my Github contributor graph green.}
   \resumeSubHeadingListEnd
