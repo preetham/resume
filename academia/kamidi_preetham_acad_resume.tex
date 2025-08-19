@@ -1,0 +1,192 @@
+
+%-------------------------
+% Resume in Latex
+% Author : Preetham Kamidi
+% Template: Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Preetham Kamidi} & Email: \href{mailto:code@preetham.me}{code@preetham.me}\\
+  Mobile : +91-8011035957 & \href{https://github.com/preetham}{github.com/preetham} \\
+  \href{https://preetham.me}{preetham.me} & \href{https://linkedin.com/in/preethamkamidi}{linkedin.com/preethamkamidi}
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Technology}{Guwahati, Assam}
+      {Bachelor of Technology in Computer Science and Engineering}{July. 2013 -- June. 2017}
+  \resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------------
+\section{Publications}
+  \resumeSubHeadingListStart
+    \item{\href{https://www.interact2017.org/interactive-posters/#}{\textbf{Pragati: Mobile VR platform to train and educate rural health workers}}}
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------------
+\section{Certifications}
+  \resumeSubHeadingListStart
+    \item{\href{https://www.credly.com/badges/3aceb983-426f-43b5-9f85-7e6a52500a85/public_url}{\textbf{Google Cloud Professional Cloud Architect}}}
+  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \item{\href{https://www.coursera.org/account/accomplishments/verify/9W425MBUTPLH}{\textbf{Mathematical Thinking in Computer Science}}}
+  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \item{\href{https://www.coursera.org/account/accomplishments/verify/LJB532CMSTES}{\textbf{Introduction to Game Development}}}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  % \resumeSubHeadingListStart
+    \resumeSubheading
+    {VMware India}{Bengaluru}
+    {R\&D Engineer Software 3}{July 2023 - Present}
+    \resumeItemListStart
+    \resumeItem{CloudHealth}{Drove key aspects of CloudHealth's New Experience (NX), the platform's most significant update, by developing authentication, authorisation, and reporting features that helped acquire over 1000 new customers.\\ Tech Stack: \textbf{Java, Scala, JRuby, MySQL, DynamoDB, Kafka}}
+    \resumeItem{Wavefront}
+      {Engineered a bulk alert snoozing feature to combat notification fatigue for enterprise customers, improving management efficiency for those handling over 10,000 alerts. \\ Tech Stack: \textbf{Java, FoundationDB, Kafka}}
+    \resumeItemListEnd
+    \resumeSubheading
+    {Noon - The Social Learning Platform}{Bengaluru}
+    {Product Engineer II}{August 2021 - April 2023}
+    \resumeItemListStart
+    \resumeItem{\href{https://play.google.com/store/apps/details?id=com.noonEdu.k12App&hl=en&gl=US}{Noon Plus}}
+      {Delivered a new subscription platform using Java, from business model design to microservice implementation, \textbf{increasing in revenue by 17\%}. \\Tech Stack: \textbf{Java, Spring, MySQL, Kafka, Redis}.}
+    \resumeItem{Kuickpay Integration}
+      {Spearheaded the integration of \textbf{Kuickpay} into Noon's supported payment methods, teamed up with operations team for problem identification, lead the technical design and implementation; \textbf{reducing manual payment reconciliation to 10\%}. \\Tech Stack: \textbf{Node.js, MySQL}.}
+    \resumeItem{In-App Purchases}
+      {Implemented both \textbf{Apple} and \textbf{Google} in-App purchases support for \textbf{Saudi Arabia} and \textbf{Egypt} in Noon backend, increasing recurring subscriptions by \textbf{23\%}. \\Tech Stack: \textbf{Node.js, MySQL}.}
+    \resumeItemListEnd
+    \resumeSubheading
+      {BookMyShow}{Bengaluru}
+      {Software Development Engineer}{August 2019 - February 2021}
+      \resumeItemListStart
+      \resumeItem{\href{https://in.bookmyshow.com/s/event-management/}{ListYourShow}}
+        {Collaborated on an event publishing service written in \textbf{Golang} facilitated small event organisers to seamlessly publish events on BookMyShow, about \textbf{200K} events published using this service. \\Tech Stack: \textbf{Golang, MongoDB}}
+      \resumeItem{Content Management System}
+        {Engineered integration of \textbf{Kafka} into BookMyShow's live events CMS, decreasing TAT for event search and discovery post publish by \textbf{60\%}. \\Tech Stack: \textbf{Golang, Kafka, MongoDB, Redis}.}
+      \resumeItem{Barcode Service}
+        {Coded a barcode generation service in \textbf{Golang}, used \textbf{Kafka} to communicate with BookMyShow's ticketing system. The system catered close to \textbf{1.2L bar codes per event} before \textbf{COVID} shutdown live event operations. \\Tech Stack: \textbf{Golang, MongoDB, Kafka}.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Abzooba India}{Pune}
+      {Software Engineer}{July 2017 - July 2019}
+      \resumeItemListStart
+        \resumeItem{Xpresso.ai}
+          {Developed and launched Xpresso.ai, an AI/ML platform that simplifies and accelerates complex AI development for enterprises on any cloud. Enabled rapid model building for Data Scientists through an intuitive interface and automated MLOps.
+          \\Tech Stack: \textbf{Python, Docker, Kubernetes, TensorFlow}.}
+      \resumeItemListEnd
+
+  % \resumeSubHeadingListEnd
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+    \item{
+     \textbf{Languages: }{Golang, Java, C\#, Python, JavaScript, JRuby, C++}
+    }
+    \item{
+      \textbf{Databases: }{MySQL, DynamoDB, MongoDB, MSSQL, Neo4j, Redis}
+    }
+    \item{
+     \textbf{Tools: }{Kafka, Git, Docker, Kubernetes, Jenkins}
+    }
+    \item{
+      \textbf{Clouds: }{AWS, Google Cloud}
+    }
+    \item{
+     \textbf{Operating Systems: }{Linux, Windows, MacOS}
+    }
+ \resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS AND AWARDS-----------------
+\section{Achievements and Awards}
+  \resumeSubHeadingListStart
+    \resumeSubItem{\href{https://summerofcode.withgoogle.com/archive/2016/projects/4536824152195072/}{Google Summer of Code 2016}}
+      {Developed the context-aware auto-complete feature for Intel's Soletta project (200+ stars) during Google Summer of Code 2016.}
+    \resumeSubItem{Employee of the Month - Abzooba}
+      {Awarded Best Employee of the Month for April 2019 in recognition for dedication to achieving excellent client satisfaction.}
+  \resumeSubHeadingListEnd
+
+%-----------PERSONAL PROJECTS-----------------
+\section{Personal Projects}
+\resumeSubHeadingListStart
+  \resumeSubItem{\href{https://github.com/preetham/verifytweet}{Verify Tweet}}
+    {A command line tool that verifies if a tweet is real using an image, built using \textbf{Python, SciPy and ImageMagick}.}
+  \resumeSubItem{\href{https://github.com/preetham/samsaram-be}{Samsaram}}
+    {A budget tracking tool that parses supported bank statements, lets the user automatically add transactions to Splitwise. \textbf{Python, Splitwise API, React.js}.}
+\resumeSubHeadingListEnd
+
+\end{document}
